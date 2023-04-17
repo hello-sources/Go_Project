@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+import _ "fmt"
 
 func main() {
 	println("test")
