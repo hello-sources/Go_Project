@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func main(
-	fmt.println("你好我是测试。")
-	fmt.println("你好我是测试。")
-	fmt.println("你好我是测试。")
-)
+func main() {
+	fmt.Println("测试分支。")
+	fmt.Println("测试分支。")
+	fmt.Println("测试分支。")
+}

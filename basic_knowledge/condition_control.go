@@ -22,13 +22,13 @@ func main() {
 
 	gender := MALE
 	switch gender {
-	case MALE:
-		fmt.Println("你是男人")
-		fallthrough
-	case FAMALE:
-		fmt.Println("你是女人")
-	default:
-		fmt.Println("你很危险，小老弟")	
+		case MALE:
+			fmt.Println("你是男人")
+			fallthrough
+		case FAMALE:
+			fmt.Println("你是女人")
+		default:
+			fmt.Println("你很危险，小老弟")	
 	}
 
 	nums := []int{10, 20, 30, 40, 50}
