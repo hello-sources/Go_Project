@@ -14,14 +14,14 @@ func main() {
 	// map
 	m1 := make(map[string]int)
 	m2 := map[string]string{
-		"Sam": "Male",
+		"Sam":   "Male",
 		"Alice": "female",
 	}
 	m1["tom"] = 18
 	fmt.Println(m1)
 	fmt.Println(m2["Sam"], m2["Alice"])
 
-	// pointer 
+	// pointer
 	str := "Golang"
 	var p *string = &str
 	fmt.Println(*p)
