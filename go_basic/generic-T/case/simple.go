@@ -48,6 +48,7 @@ type MyInt64 int64
 type MyInt32 = int32
 
 func CusNumTCase() {
+	fmt.Println("---------CusNumTCase---------")
 	var a, b int32 = 3, 4
 	var a1, b1 MyInt32 = a, b
 	fmt.Println("自定义泛型：", getMaxCusNum(a, b))
@@ -71,6 +72,7 @@ func getMaxCusNum[T CusNumT](a, b T) T {
 
 // 内置类型
 func BuiltInCase() {
+	fmt.Println("---------BuiltInCase---------")
 	var a, b string = "abc", "efg"
 	fmt.Println("内置类型 comparable 泛型类型约束：", getBuiltInComparable(a, b))
 
