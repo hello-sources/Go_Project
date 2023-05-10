@@ -55,14 +55,14 @@ func TTypeCase() {
 	}
 }
 
-// 定义一个泛型切片
+// List 定义一个泛型切片
 type List[T any] []T
 
-// 泛型集合的定义
+// MapT 泛型集合的定义
 // 声明两个泛型，分别为k,v
 type MapT[k comparable, v any] map[k]v
 
-// 泛型通道的定义
+// Chan 泛型通道的定义
 type Chan[T any] chan T
 
 func TTypeCase1() {
