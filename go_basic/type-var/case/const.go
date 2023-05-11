@@ -28,3 +28,7 @@ func ConstAndEnumCase() {
 	var gender Gender = MALE
 	fmt.Println(A, B, gender, size)
 }
+
+func init() {
+	fmt.Println("调用_case包下面的 init方法")
+}
