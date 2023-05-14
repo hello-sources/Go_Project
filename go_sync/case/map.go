@@ -59,5 +59,9 @@ func MapCase1() {
 		}()
 	}
 	wg.Wait()
+	mp.Range(func(key, value any) bool {
+		fmt.Println(key, value)
+		return true
+	})
 	fmt.Println(mp)
 }
