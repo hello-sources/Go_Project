@@ -14,7 +14,12 @@ func main() {
 	//_case.CondQueueCase()
 	//_case.MutexCase()
 	//_case.MapCase()
-	_case.MapCase1()
+	//_case.MapCase1()
+	//_case.PoolCase()
+	//_case.OnceCase()
+	//_case.AtomicCase()
+	//_case.AtomicCase1()
+	_case.AtomicCase2()
 
 	ctx, stop := signal.NotifyContext(context.Background(), os.Kill, os.Interrupt)
 	defer stop()
