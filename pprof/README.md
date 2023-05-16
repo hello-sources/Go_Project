@@ -22,3 +22,12 @@
 
 通过Web网页，以图片或网页查看性能情况需要安装插件
 地址：https://graphviz.gitlab.io/download/
+
+# 命令行分析
+1. top 按资源的消耗排序
+2. list 展示资源消耗的源码
+3. web 以 svc 图片展示连线图
+
+# web 应用
+1. go tool pprof -http=:8080 <source>
+2. go tool pprof -web <source>
