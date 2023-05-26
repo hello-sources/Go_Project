@@ -1,0 +1,2 @@
+{"client_ip":"::1","file":"D:/Software/Go_Project/Go_Project/logrus/main.go:48","func":"main.myLogger","latency":0,"level":"info","method":"GET","msg":"","path":"/ping","size":14,"status_code":200,"time":"2023-05-26T15:53:36+08:00"}
+{"client_ip":"::1","file":"D:/Software/Go_Project/Go_Project/logrus/main.go:48","func":"main.myLogger","latency":0,"level":"info","method":"GET","msg":"","path":"/favicon.ico","size":-1,"status_code":404,"time":"2023-05-26T15:53:37+08:00"}
